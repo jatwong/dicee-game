@@ -7,9 +7,9 @@ var die2 = "/images/dice" + randomNumber2 + ".png";
 document.querySelector(".img1").setAttribute("src", die1);
 document.querySelector(".img2").setAttribute("src", die2);
 
-if (die1 > die2) {
+if (randomNumber1 > randomNumber2) {
     document.querySelector("h1").textContent = "🚩 Player 1 wins!";
-} else if (die2 > die1) {
+} else if (randomNumber1 < randomNumber2) {
     document.querySelector("h1").textContent = "Player 2 wins! 🚩";
 } else {
     document.querySelector("h1").textContent = "🚩 It's a tie! 🚩";
