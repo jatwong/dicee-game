@@ -4,4 +4,4 @@ A very quick and simple dice "game" from the Web Development Bootcamp with Angel
 
 ## Next steps
 
-I would like to reiterate this website with my own design and additional functionalities.
+Will reiterate this website with my own design and additional functionalities.
